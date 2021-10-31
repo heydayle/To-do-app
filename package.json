@@ -2,12 +2,15 @@
   "name": "todo",
   "version": "0.0.1",
   "private": true,
+  "homepage": "https://heyday1515.github.io/To-do-app/",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@react-native-community/async-storage": "^1.12.1",
