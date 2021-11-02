@@ -1,7 +1,7 @@
 const env = () => process.env.ENV || 'development',
-	isProduction = env() === 'production';
+  isProduction = env() === 'production';
 
 module.exports = {
-	env,
-	publicPath: isProduction ? '/' : 'http://localhost:3000/',
+  env,
+  publicPath: isProduction ? '/' : 'https://heyday1515.github.io/To-do-app/',
 };
